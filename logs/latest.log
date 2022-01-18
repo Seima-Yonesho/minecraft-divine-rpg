@@ -1,76 +1,213 @@
-[131ŒŽ2022 18:49:26.704] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.20, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
-[131ŒŽ2022 18:49:26.711] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 11.0.13 by Oracle Corporation
-[131ŒŽ2022 18:49:27.387] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[131ŒŽ2022 18:49:27.467] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/bulei/MinecraftServer/Forge-1.16.5/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
-[131ŒŽ2022 18:49:27.535] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Configuration file C:\Users\bulei\MinecraftServer\Forge-1.16.5\config\fml.toml is not correct. Correcting
-[131ŒŽ2022 18:49:27.542] [main/WARN] [net.minecraftforge.fml.loading.FMLConfig/CORE]: Incorrect key [defaultConfigPath] was corrected from null to defaultconfigs
-[131ŒŽ2022 18:49:27.994] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[131ŒŽ2022 18:49:28.149] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[131ŒŽ2022 18:49:28.160] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
-[131ŒŽ2022 18:49:29.138] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
-[131ŒŽ2022 18:49:38.531] [modloading-worker-2/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.20, for MC 1.16.5 with MCP 20210115.111550
-[131ŒŽ2022 18:49:38.552] [modloading-worker-2/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.20 Initialized
-[131ŒŽ2022 18:49:39.883] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\bulei\MinecraftServer\Forge-1.16.5\config\forge-common.toml is not correct. Correcting
-[131ŒŽ2022 18:49:39.956] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
-[131ŒŽ2022 18:49:39.958] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.defaultWorldType was corrected from null to its default, default. 
-[131ŒŽ2022 18:49:40.167] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[131ŒŽ2022 18:49:42.332] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.20 Target: null
-[131ŒŽ2022 18:49:45.030] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[131ŒŽ2022 18:49:46.640] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[131ŒŽ2022 18:49:46.666] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[131ŒŽ2022 18:49:46.669] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[131ŒŽ2022 18:49:46.713] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[131ŒŽ2022 18:49:46.734] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[131ŒŽ2022 18:49:46.759] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.20-universal.jar
-[131ŒŽ2022 18:49:49.388] [Worker-Main-10/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 7 recipes
-[131ŒŽ2022 18:49:51.003] [Worker-Main-10/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 927 advancements
-[131ŒŽ2022 18:49:52.411] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
-[131ŒŽ2022 18:49:52.414] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[131ŒŽ2022 18:49:52.415] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[131ŒŽ2022 18:49:52.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[131ŒŽ2022 18:49:52.631] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[131ŒŽ2022 18:49:52.692] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
-[131ŒŽ2022 18:49:53.857] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\world\serverconfig\forge-server.toml is not correct. Correcting
-[131ŒŽ2022 18:49:53.860] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[131ŒŽ2022 18:49:53.862] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[131ŒŽ2022 18:49:53.864] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringTileEntities was corrected from null to its default, false. 
-[131ŒŽ2022 18:49:53.865] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[131ŒŽ2022 18:49:53.866] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[131ŒŽ2022 18:49:53.867] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[131ŒŽ2022 18:49:53.868] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.logCascadingWorldGeneration was corrected from null to its default, true. 
-[131ŒŽ2022 18:49:53.870] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixVanillaCascading was corrected from null to its default, false. 
-[131ŒŽ2022 18:49:53.871] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.dimensionUnloadQueueDelay was corrected from null to its default, 0. 
-[131ŒŽ2022 18:49:53.872] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.treatEmptyTagsAsAir was corrected from null to its default, false. 
-[131ŒŽ2022 18:49:53.874] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
-[131ŒŽ2022 18:49:53.918] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[131ŒŽ2022 18:49:54.381] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[131ŒŽ2022 18:49:56.573] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[131ŒŽ2022 18:49:56.574] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[131ŒŽ2022 18:49:56.576] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[131ŒŽ2022 18:49:56.578] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[131ŒŽ2022 18:49:56.579] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[131ŒŽ2022 18:49:57.096] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[131ŒŽ2022 18:50:02.679] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.690] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.693] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.695] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.697] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.708] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.710] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.711] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.712] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.715] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.716] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:02.892] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:03.404] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:04.199] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:04.387] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:04.885] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:05.386] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:05.891] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:06.384] [Worker-Main-13/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:06.894] [Worker-Main-8/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[131ŒŽ2022 18:50:07.387] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 89%
-[131ŒŽ2022 18:50:07.890] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 96%
-[131ŒŽ2022 18:50:08.059] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 13677 ms
-[131ŒŽ2022 18:50:08.061] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (14.222s)! For help, type "help"
+[181ŒŽ2022 09:49:20.511] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmlserver, --fml.forgeVersion, 36.2.20, --fml.mcpVersion, 20210115.111550, --fml.mcVersion, 1.16.5, --fml.forgeGroup, net.minecraftforge, nogui]
+[181ŒŽ2022 09:49:20.542] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 8.0.9+86+master.3cf110c starting: java version 11.0.13 by Oracle Corporation
+[181ŒŽ2022 09:49:21.254] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[181ŒŽ2022 09:49:21.332] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.4 Source=file:/C:/Users/bulei/MinecraftServer/Forge-1.16.5/libraries/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar Service=ModLauncher Env=SERVER
+[181ŒŽ2022 09:49:21.879] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[181ŒŽ2022 09:49:22.020] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[181ŒŽ2022 09:49:22.035] [main/INFO] [STDERR/]: [jdk.nashorn.api.scripting.NashornScriptEngine:<init>:143]: Warning: Nashorn engine is planned to be removed from a future JDK release
+[181ŒŽ2022 09:49:22.973] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmlserver' with arguments [--gameDir, ., nogui]
+[181ŒŽ2022 09:49:31.622] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 36.2.20, for MC 1.16.5 with MCP 20210115.111550
+[181ŒŽ2022 09:49:31.794] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v36.2.20 Initialized
+[181ŒŽ2022 09:49:31.801] [modloading-worker-4/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered events
+[181ŒŽ2022 09:49:33.775] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered blocks
+[181ŒŽ2022 09:49:34.332] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered items
+[181ŒŽ2022 09:49:34.605] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered tile entities
+[181ŒŽ2022 09:49:34.623] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered enchantments
+[181ŒŽ2022 09:49:34.732] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered sounds
+[181ŒŽ2022 09:49:34.799] [main/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Attached entity attributes
+[181ŒŽ2022 09:49:34.961] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\bulei\MinecraftServer\Forge-1.16.5\config\divinerpg-common.toml is not correct. Correcting
+[181ŒŽ2022 09:49:34.964] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[181ŒŽ2022 09:49:34.965] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[181ŒŽ2022 09:49:34.966] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.general.welcomeMessage was corrected from null to its default, true. 
+[181ŒŽ2022 09:49:34.967] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.general.hideArcanaBar was corrected from null to its default, true. 
+[181ŒŽ2022 09:49:34.968] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.general.arcanaX was corrected from null to its default, 111. 
+[181ŒŽ2022 09:49:34.968] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.general.arcanaY was corrected from null to its default, 18. 
+[181ŒŽ2022 09:49:34.969] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.general.maxArcana was corrected from null to its default, 200. 
+[181ŒŽ2022 09:49:34.988] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[181ŒŽ2022 09:49:35.058] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.arlemiteVein was corrected from null to its default, 5. 
+[181ŒŽ2022 09:49:35.097] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.arlemiteMax was corrected from null to its default, 16. 
+[181ŒŽ2022 09:49:35.099] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.arlemiteTries was corrected from null to its default, 4. 
+[181ŒŽ2022 09:49:35.100] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.realmiteVein was corrected from null to its default, 5. 
+[181ŒŽ2022 09:49:35.104] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.realmiteMax was corrected from null to its default, 48. 
+[181ŒŽ2022 09:49:35.132] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.realmiteTries was corrected from null to its default, 8. 
+[181ŒŽ2022 09:49:35.135] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.rupeeVein was corrected from null to its default, 5. 
+[181ŒŽ2022 09:49:35.137] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.rupeeMax was corrected from null to its default, 16. 
+[181ŒŽ2022 09:49:35.142] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.rupeeTries was corrected from null to its default, 4. 
+[181ŒŽ2022 09:49:35.165] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.netherVein was corrected from null to its default, 10. 
+[181ŒŽ2022 09:49:35.167] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.netherTries was corrected from null to its default, 8. 
+[181ŒŽ2022 09:49:35.186] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.twilightVein was corrected from null to its default, 10. 
+[181ŒŽ2022 09:49:35.187] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.world gen.twilightTries was corrected from null to its default, 8. 
+[181ŒŽ2022 09:49:35.205] [modloading-worker-1/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered registry keys
+[181ŒŽ2022 09:49:35.218] [modloading-worker-1/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered features
+[181ŒŽ2022 09:49:35.294] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[181ŒŽ2022 09:49:35.384] [modloading-worker-1/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered triggers
+[181ŒŽ2022 09:49:35.413] [modloading-worker-1/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered networking
+[181ŒŽ2022 09:49:35.428] [modloading-worker-1/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Setup structures
+[181ŒŽ2022 09:49:35.446] [modloading-worker-1/INFO] [divinerpg.DivineRPG/]: [DivineRPG] Registered configured structures
+[181ŒŽ2022 09:49:37.259] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 36.2.20 Target: null
+[181ŒŽ2022 09:49:37.287] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Starting version check at https://raw.githubusercontent.com/DivineRPG/DivineRPG/1.12.2/divinerpg_update.json
+[181ŒŽ2022 09:49:37.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [divinerpg] Found status: BETA Current: 1.8.2 Target: null
+[181ŒŽ2022 09:49:39.626] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[181ŒŽ2022 09:49:40.912] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[181ŒŽ2022 09:49:40.920] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[181ŒŽ2022 09:49:40.931] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[181ŒŽ2022 09:49:40.958] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[181ŒŽ2022 09:49:40.987] [main/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[181ŒŽ2022 09:49:41.004] [main/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, forge-1.16.5-36.2.20-universal.jar, DivineRPG-1.8.2.jar
+[181ŒŽ2022 09:49:43.029] [Worker-Main-12/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 8 recipes
+[181ŒŽ2022 09:49:44.179] [Worker-Main-12/ERROR] [net.minecraft.loot.LootTableManager/]: Couldn't parse loot table divinerpg:blocks/wildwood_tallgrass
+net.minecraft.util.ResourceLocationException: Non [a-z0-9/._-] character in path of location: divinerpg:wildwood_tallgrass 
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:33) ~[?:?]
+	at net.minecraft.util.ResourceLocation.<init>(ResourceLocation.java:38) ~[?:?]
+	at net.minecraft.loot.conditions.BlockStateProperty$Serializer.func_230423_a_(SourceFile:77) ~[?:?]
+	at net.minecraft.loot.conditions.BlockStateProperty$Serializer.func_230423_a_(SourceFile:68) ~[?:?]
+	at net.minecraft.loot.LootTypesManager$Serializer.deserialize(SourceFile:83) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:184) ~[?:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:180) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraft.util.JSONUtils.func_188179_a(SourceFile:440) ~[?:?]
+	at net.minecraft.util.JSONUtils.func_188177_a(SourceFile:456) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:252) ~[?:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:249) ~[?:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:887) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:952) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:925) ~[server-1.16.5-20210115.111550-extra.jar:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:881) ~[forge:?]
+	at net.minecraft.loot.LootTableManager.lambda$apply$0(LootTableManager.java:40) ~[?:?]
+	at java.util.HashMap.forEach(HashMap.java:1337) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:38) ~[?:?]
+	at net.minecraft.loot.LootTableManager.func_212853_a_(LootTableManager.java:16) ~[?:?]
+	at net.minecraft.client.resources.ReloadListener.func_215269_a(SourceFile:13) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:714) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:610) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:722) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:478) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219557_a(SourceFile:71) ~[?:?]
+	at net.minecraft.resources.AsyncReloader.func_219560_a(SourceFile:70) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompletion.claim(CompletableFuture.java:568) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:710) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216873_a(SourceFile:53) ~[?:?]
+	at net.minecraft.resources.AsyncReloader$1.func_216872_a(SourceFile:50) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1072) [?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1705) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1692) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183) [?:?]
+[181ŒŽ2022 09:49:44.657] [Worker-Main-12/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {divinerpg:blocks/pinfly_plant}.pools[0].entries[0]: Unreachable entry!
+[181ŒŽ2022 09:49:44.657] [Worker-Main-12/WARN] [net.minecraft.loot.LootTableManager/]: Found validation problem in {divinerpg:blocks/firestock_plant}.pools[0].entries[0]: Unreachable entry!
+[181ŒŽ2022 09:49:44.769] [Worker-Main-12/ERROR] [net.minecraft.advancements.AdvancementManager/]: Parsing error loading custom advancement divinerpg:overworld/perfectly_corrupted: Malformed NBT tag
+[181ŒŽ2022 09:49:44.903] [Worker-Main-12/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 989 advancements
+[181ŒŽ2022 09:49:48.519] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.16.5
+[181ŒŽ2022 09:49:48.521] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[181ŒŽ2022 09:49:48.523] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[181ŒŽ2022 09:49:48.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[181ŒŽ2022 09:49:48.774] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[181ŒŽ2022 09:49:48.790] [Server thread/INFO] [net.minecraft.network.NetworkSystem/]: Using default channel type
+[181ŒŽ2022 09:49:50.450] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[181ŒŽ2022 09:49:50.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[181ŒŽ2022 09:49:52.448] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[181ŒŽ2022 09:49:52.454] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[181ŒŽ2022 09:49:52.456] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[181ŒŽ2022 09:49:52.457] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[181ŒŽ2022 09:49:53.110] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[181ŒŽ2022 09:49:58.400] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.410] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.412] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.414] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.415] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.474] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.476] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.483] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.487] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.489] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.501] [Worker-Main-12/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:58.856] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:59.380] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:49:59.856] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:50:00.356] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:50:00.886] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
+[181ŒŽ2022 09:50:01.366] [Worker-Main-10/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 84%
+[181ŒŽ2022 09:50:01.855] [Worker-Main-11/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 88%
+[181ŒŽ2022 09:50:02.360] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 92%
+[181ŒŽ2022 09:50:02.857] [Worker-Main-9/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 97%
+[181ŒŽ2022 09:50:03.036] [Server thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 12180 ms
+[181ŒŽ2022 09:50:03.046] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.634s)! For help, type "help"
+[181ŒŽ2022 09:50:18.964] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Stopping the server
+[181ŒŽ2022 09:50:19.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[181ŒŽ2022 09:50:19.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[181ŒŽ2022 09:50:19.013] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[181ŒŽ2022 09:50:19.014] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[181ŒŽ2022 09:50:19.748] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[181ŒŽ2022 09:50:19.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[181ŒŽ2022 09:50:19.753] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[181ŒŽ2022 09:50:19.755] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[181ŒŽ2022 09:50:19.757] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[181ŒŽ2022 09:50:19.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:apalachia
+[181ŒŽ2022 09:50:19.762] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[181ŒŽ2022 09:50:19.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:arcana
+[181ŒŽ2022 09:50:19.768] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[181ŒŽ2022 09:50:19.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:eden
+[181ŒŽ2022 09:50:19.772] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[181ŒŽ2022 09:50:19.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:iceika
+[181ŒŽ2022 09:50:19.775] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[181ŒŽ2022 09:50:19.776] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:mortum
+[181ŒŽ2022 09:50:19.785] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[181ŒŽ2022 09:50:19.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:skythern
+[181ŒŽ2022 09:50:19.789] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[181ŒŽ2022 09:50:19.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:vethea
+[181ŒŽ2022 09:50:19.794] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[181ŒŽ2022 09:50:19.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/divinerpg:wildwood
+[181ŒŽ2022 09:50:19.799] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
+[181ŒŽ2022 09:50:19.834] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[181ŒŽ2022 09:50:19.841] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[181ŒŽ2022 09:50:19.842] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[181ŒŽ2022 09:50:19.843] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (apalachia): All chunks are saved
+[181ŒŽ2022 09:50:19.844] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (arcana): All chunks are saved
+[181ŒŽ2022 09:50:19.845] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (eden): All chunks are saved
+[181ŒŽ2022 09:50:19.846] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (iceika): All chunks are saved
+[181ŒŽ2022 09:50:19.847] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (mortum): All chunks are saved
+[181ŒŽ2022 09:50:19.848] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (skythern): All chunks are saved
+[181ŒŽ2022 09:50:19.849] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (vethea): All chunks are saved
+[181ŒŽ2022 09:50:19.849] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (wildwood): All chunks are saved
